@@ -1,0 +1,5 @@
+C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe.config
+C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe
+C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.pdb
+C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.exe
+C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.pdb
