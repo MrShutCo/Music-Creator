@@ -3,3 +3,9 @@ C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\bin\Debu
 C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.pdb
 C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.exe
 C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.pdb
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe.config
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.pdb
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.csprojResolveAssemblyReference.cache
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.exe
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.pdb

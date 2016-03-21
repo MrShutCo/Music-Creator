@@ -8,10 +8,11 @@ namespace MusicCreatorTester {
     class Program {
         static void Main(string[] args) {
 
-            Dictionary<string, int> MusicalNotes = MusicReader.ReadMusicFile("MusicFile");
-
-            foreach(KeyValuePair<string, int> kvp in MusicalNotes) {
-                Console.WriteLine("Note {0}: {1}", kvp.Key, kvp.Value);
+            List<byte> musicBytes = MusicReader.ReadMidiFile("Glycerine");
+            Console.WriteLine();
+            List<string> musicNotes = MusicReader.ConvertToNotes(musicBytes);
+            foreach(string s in musicNotes) {
+                Console.Write(s + " ");
             }
             Console.ReadLine();
 

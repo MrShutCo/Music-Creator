@@ -8,25 +8,34 @@ using System.Threading.Tasks;
 namespace MusicCreatorTester {
     public static class MusicReader {
 
-        public static Dictionary<string, int> ReadMusicFile(string fileName) {
-            string line;
-            Dictionary<string, int> Notes = new Dictionary<string, int>();
-            StreamReader file = new StreamReader(fileName + ".txt");
-            while ((line = file.ReadLine()) != null){
-                string[] notesLine = line.Split(' ');
-                foreach (string s in notesLine) {
-                    if (!Notes.Keys.Contains(s)){
-                        Notes.Add(s, 1);
-                    }
-                    else {
-                        Notes[s] += 1;
-                    }
+        public static List<byte> ReadMidiFile(string fileName) {
+            byte[] MIDI = File.ReadAllBytes(fileName + ".mid");
+            List<byte> MIDINotes = new List<byte>();
+            for (int i = 0; i < MIDI.Length; i++) {
+
+                if (MIDI[i] == 144) {
+                    Console.Write(MIDI[i + 1] + " ");  //This is the note value
+                    MIDINotes.Add(MIDI[i + 1]);
                 }
+
+            }
+            return MIDINotes;
+        }
+
+        public static List<string> ConvertToNotes(List<byte> noteBytes) {
+            List<string> Notes = new List<string>();
+            string[] noteNames = { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
+            string[] noteOctaves = { "-2", "-1", "0", "1", "2", "3", "4", "5", "6", "7", "8" };
+            foreach(byte b in noteBytes) {
+                //Determine Row:
+                int rowNo = b / 12;
+                //Determine Column:
+                int colNo = b % 12;
+                string note = noteNames[colNo] + noteOctaves[rowNo];
+                Notes.Add(note);
             }
             return Notes;
         }
-
-        public 
 
     }
 }
