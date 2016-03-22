@@ -8,14 +8,22 @@ namespace MusicCreatorTester {
     class Program {
         static void Main(string[] args) {
 
-            List<byte> musicBytes = MusicReader.ReadMidiFile("Glycerine");
-            Console.WriteLine();
-            List<string> musicNotes = MusicReader.ConvertToNotes(musicBytes);
-            foreach(string s in musicNotes) {
-                Console.Write(s + " ");
+            List<byte> MusicalBytes = MusicIO.ReadMidiFile("Glycerine");
+            List<Note> MusicalNotes = MusicIO.ConvertToNotes(MusicalBytes);
+            Dictionary<string, int> NoteCount = MusicAnalyzer.FindNoteCount(MusicalNotes);
+            foreach(KeyValuePair<string, int> kvp in NoteCount) {
+                Console.WriteLine("Note: {0} Times Occured: {1}", kvp.Key, kvp.Value);
+                
             }
-            Console.ReadLine();
+            foreach (Note n in MusicalNotes) {
+                Console.Write(n.ToString() + " ");
+            }
 
+            Console.WriteLine();
+            //foreach(string s in MusicalNotes) {
+                //Console.Write(s + " ");
+            //}
+            Console.ReadLine();
         }
     }
 }
