@@ -21,10 +21,11 @@ namespace MusicCreatorTester {
             }
             return MIDINotes;
         }
+
         public static List<Note> ConvertToNotes(List<byte> noteBytes) {
             List<Note> Notes = new List<Note>();
             string[] noteNames = { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
-            string[] noteOctaves = { "-2", "-1", "0", "1", "2", "3", "4", "5", "6", "7", "8" };
+            string[] noteOctaves = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
             foreach(byte b in noteBytes) {
                 //Determine Row:
                 int rowNo = b / 12;
@@ -35,6 +36,8 @@ namespace MusicCreatorTester {
             }
             return Notes;
         }
+
+        
 
     }
 }

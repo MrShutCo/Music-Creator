@@ -1,0 +1,7 @@
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\bin\Debug\VLA Compiler.dll
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\bin\Debug\VLA Compiler.pdb
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\obj\Debug\VLA Compiler.csprojResolveAssemblyReference.cache
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\obj\Debug\VLA Compiler.dll
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\obj\Debug\VLA Compiler.pdb
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\bin\Debug\NAudio.dll
+C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\VLA Compiler\bin\Debug\NAudio.xml
