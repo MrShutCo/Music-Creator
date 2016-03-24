@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 namespace MusicCreatorTester {
     public static class MusicIO {
 
+        #region IO
+
         public static List<byte> ReadMidiFile(string fileName) {
             byte[] MIDI = File.ReadAllBytes(fileName + ".mid");
             List<byte> MIDINotes = new List<byte>();
@@ -21,6 +23,10 @@ namespace MusicCreatorTester {
             }
             return MIDINotes;
         }
+
+        #endregion
+
+        #region Conversions
 
         public static List<Note> ConvertToNotes(List<byte> noteBytes) {
             List<Note> Notes = new List<Note>();
@@ -37,7 +43,7 @@ namespace MusicCreatorTester {
             return Notes;
         }
 
-        
+        #endregion
 
     }
 }

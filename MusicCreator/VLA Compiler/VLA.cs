@@ -10,19 +10,23 @@ namespace VLA_Compiler
     public class VLA
     {
 
+        #region Properties
+
         public int Tempo;
         public float Signature;
         public List<Channel> Channels;
 
-        /// <summary>
-        /// We need to have a list of channels, each that contain Bars of data.
-        /// Once the song is executed, it goes through each channel, checks if the bar is there
-        /// 
-        /// </summary>
+        #endregion
+
+        #region Constructor
 
         public VLA() {
             Channels = new List<Channel>();
-        } 
+        }
+
+        #endregion
+
+        #region Public Methods
 
         public void LoadVLA(string fileName) {
             StreamReader file = new StreamReader(fileName + ".vla");
@@ -46,6 +50,18 @@ namespace VLA_Compiler
             }
             Console.WriteLine("Success!");
         }
+
+        public Channel GetChannel(int id) {
+            foreach (Channel ch in Channels) {
+                if (ch.ChannelNo == id)
+                    return ch;
+            }
+            return null;
+        }
+
+        #endregion
+
+        #region Helper Methods
 
         private void LoadChannels(StreamReader file) {
             string line;
@@ -94,14 +110,8 @@ namespace VLA_Compiler
             }
             return strip;
         }
-
-        public Channel GetChannel(int id) {
-            foreach (Channel ch in Channels) {
-                if (ch.ChannelNo == id)
-                    return ch;
-            }
-            return null;
-        }
-
     }
+
+    #endregion
+
 }

@@ -27,7 +27,7 @@ namespace MusicCreatorTester {
             VLA vla = new VLA();
             vla.LoadVLA("test");
             VLAPlayer player = new VLAPlayer();
-            player.SaveToMIDI(vla, "testsMidi.mid");
+            player.PlayVLA(vla);
             Console.ReadLine();
         }
     }

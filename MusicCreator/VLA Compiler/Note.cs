@@ -7,10 +7,16 @@ using System.Threading.Tasks;
 namespace VLA_Compiler {
     public class Note {
 
+        #region Properties
+
         public string NoteName;
         public int Octave;
         public float Length;
         public int Volume;
+
+        #endregion
+
+        #region Constructor
 
         public Note(string note, int octave) {
             NoteName = note;
@@ -20,6 +26,10 @@ namespace VLA_Compiler {
         public Note() {
 
         }
+
+        #endregion
+
+        #region Conversions
 
         public static int NoteToMIDI(Note note) {
             List<string> noteNames = new List<string>() { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
@@ -54,9 +64,15 @@ namespace VLA_Compiler {
             return new Note(note, Convert.ToInt32(octave));
         }
 
+        #endregion
+
+        #region Override Methods
+
         public override string ToString() {
             return NoteName + Octave.ToString();
         }
+
+        #endregion
 
     }
 }
