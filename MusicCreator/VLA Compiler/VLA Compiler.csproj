@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Channel.cs" />
+    <Compile Include="MusicTime.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="VLA Player.cs" />
     <Compile Include="VLA.cs" />

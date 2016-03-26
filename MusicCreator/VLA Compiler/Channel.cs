@@ -9,7 +9,7 @@ namespace VLA_Compiler {
     public struct Bar {
         public float TimeSig;
         public int BarNo;
-        public List<Note> notes;
+        public List<List<Note>> notes;
     }
 
     public class Channel {

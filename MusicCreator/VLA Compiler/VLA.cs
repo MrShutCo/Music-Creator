@@ -77,7 +77,7 @@ namespace VLA_Compiler
 
         private void ReadBar(StreamReader file) {
             Bar bar = new Bar();
-            bar.notes = new List<Note>();
+            bar.notes = new List<List<Note>>();
             int barID = 0;
             string line = file.ReadLine();
             if (line.Contains('#')) {
@@ -85,12 +85,18 @@ namespace VLA_Compiler
                 bar.BarNo = Convert.ToInt32(temp.Split(',')[1]);
                 barID = Convert.ToInt32(temp.Split(',')[0]);
             }
+            //This is for each line
             while ((line = file.ReadLine()) != "#end#") {
-                Note n = Note.ConvertToNote(line.Split(' ')[0]);
-                n.Length = Convert.ToSingle(line.Split(' ')[1]);
-                n.Volume = Convert.ToInt32(line.Split(' ')[2]);
-                
-                bar.notes.Add(n);
+                int notesInLine = line.Split(',').Length - 1;
+                List<Note> NoteLine = new List<Note>();
+                for (int i = 0; i <= notesInLine; i++) {
+                    string l = line.Split(',')[i];
+                    Note n = Note.ConvertToNote(l.Split(' ')[0]);
+                    n.Length = Convert.ToSingle(l.Split(' ')[1]);
+                    n.Volume = Convert.ToInt32(l.Split(' ')[2]);
+                    NoteLine.Add(n);
+                }
+                bar.notes.Add(NoteLine);
             }
             GetChannel(barID).Bars.Add(bar);
             //ReadUntilNewLine(file);

@@ -28,6 +28,9 @@ namespace MusicCreatorTester {
             vla.LoadVLA("test");
             VLAPlayer player = new VLAPlayer();
             player.PlayVLA(vla);
+            
+            
+            //player.PlayTest();
             Console.ReadLine();
         }
     }
