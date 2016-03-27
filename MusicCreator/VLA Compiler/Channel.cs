@@ -9,6 +9,7 @@ namespace VLA_Compiler {
     public struct Bar {
         public float TimeSig;
         public int BarNo;
+        public int MilliIntoSong;
         public List<List<Note>> notes;
     }
 

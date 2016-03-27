@@ -13,3 +13,16 @@ C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreato
 C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\bin\Debug\VLA Compiler.pdb
 C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\bin\Debug\NAudio.dll
 C:\Users\Tyler Safaric\Documents\GitHub\Music-Generator\MusicCreator\MusicCreatorTester\bin\Debug\NAudio.xml
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe.config
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.exe
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\VLA Compiler.dll
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\NAudio.dll
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\VLA Compiler.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\bin\Debug\NAudio.xml
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\GitHub\Music-Creator\MusicCreator\MusicCreatorTester\bin\Debug\MusicCreatorTester.exe.config
+C:\Users\Mark\Documents\GitHub\Music-Creator\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.exe
+C:\Users\Mark\Documents\GitHub\Music-Creator\MusicCreator\MusicCreatorTester\obj\Debug\MusicCreatorTester.pdb

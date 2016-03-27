@@ -14,6 +14,10 @@ namespace VLA_Compiler {
         public float Length;
         public int Volume;
 
+        //Use just for playing note
+        public int milliIntoSongStart;
+        public int milliIntoSongEnd;
+
         #endregion
 
         #region Constructor

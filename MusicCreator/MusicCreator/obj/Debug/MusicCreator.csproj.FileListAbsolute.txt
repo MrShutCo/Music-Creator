@@ -1,8 +1,13 @@
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\bin\Debug\MusicCreator.exe.config
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\bin\Debug\MusicCreator.exe
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\bin\Debug\MusicCreator.pdb
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\obj\Debug\MusicCreator.csprojResolveAssemblyReference.cache
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\obj\Debug\MusicCreator.Properties.Resources.resources
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\obj\Debug\MusicCreator.csproj.GenerateResource.Cache
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\obj\Debug\MusicCreator.exe
-C:\Users\Tyler Safaric\Desktop\Projects\MusicCreator\MusicCreator\obj\Debug\MusicCreator.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\MusicCreator.exe.config
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\MusicCreator.exe
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\MusicCreator.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\obj\Debug\MusicCreator.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\obj\Debug\MusicCreator.Form1.resources
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\obj\Debug\MusicCreator.Properties.Resources.resources
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\obj\Debug\MusicCreator.csproj.GenerateResource.Cache
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\obj\Debug\MusicCreator.exe
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\obj\Debug\MusicCreator.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\VLA Compiler.dll
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\NAudio.dll
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\VLA Compiler.pdb
+C:\Users\Mark\Desktop\Projects\Music-Creator-master\MusicCreator\MusicCreator\bin\Debug\NAudio.xml

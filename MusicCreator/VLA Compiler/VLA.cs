@@ -12,6 +12,7 @@ namespace VLA_Compiler
 
         #region Properties
 
+        //Milliseconds per 1/8 note
         public int Tempo;
         public float Signature;
         public List<Channel> Channels;
@@ -28,6 +29,10 @@ namespace VLA_Compiler
 
         #region Public Methods
 
+        /// <summary>
+        /// All reading goes here
+        /// </summary>
+        /// <param name="fileName"></param>
         public void LoadVLA(string fileName) {
             StreamReader file = new StreamReader(fileName + ".vla");
             string MagicHeader = file.ReadLine();
@@ -42,7 +47,7 @@ namespace VLA_Compiler
             LoadChannels(file);
 
             //Read until something is hit
-
+            //ReadUntilNewLine(file);
             //Make assumption that it's a channel
             //Also make assumption that that's all there is to read
             while (!file.EndOfStream) {
