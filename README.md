@@ -13,3 +13,5 @@ SaveToMIDI: Takes in a VLA song and a fileName and writes a song to it (doesn't 
 
 PlayVLA: Same as above, but instead plays the notes right away (new thread for each channel, maybe change).
 
+##Note
+It can also read a midi file and convert the bytes to the corresponding note, ready to be analyzed (by nothing right now)
